@@ -11,6 +11,5 @@ monthly_savings = monthly_income - monthly_expenses
 annual_interest_rate = 0.05  # 5% annual interest rate (as a decimal)
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * annual_interest_rate)
 
-# Display results in a human-readable format
-print(f"Your monthly savings are ${monthly_savings}.")  # Format to display 2 decimal places
+print(f"Your monthly savings are ${monthly_savings}.") 
 print(f"Projected savings after one year, with interest, is: ${projected_savings}.")
